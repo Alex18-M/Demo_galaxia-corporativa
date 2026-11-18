@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Plantilla Galaxia · Quark Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="bar"></div>
+    <header>
+      <div class="wrap hd">
+        <a class="logo" href="#inicio" id="logo"></a>
+        <nav id="nav">
+          <a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a
+          ><a href="#servicios">Servicios</a><a href="#galeria">Galería</a
+          ><a href="#contacto">Contacto</a>
+        </nav>
+        <button id="burger" aria-label="Abrir menú">Menú</button>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="inicio">
+        <div class="wrap hg">
+          <div>
+            <p class="kick" id="kick"></p>
+            <h1 id="h1"></h1>
+            <p class="lead" id="lead"></p>
+            <div class="cta">
+              <a class="btn" href="#contacto" id="b1"></a
+              ><a class="btn ghost" href="#servicios" id="b2"></a>
+            </div>
+          </div>
+          <div class="art">
+            <div class="sh s1" id="emo"></div>
+            <div class="sh s2"><b id="hb"></b><span id="hs"></span></div>
+          </div>
+        </div>
+      </section>
+      <section class="alt" id="nosotros">
+        <div class="wrap two">
+          <div class="rv">
+            <span class="tag">Nosotros</span>
+            <h2 id="at"></h2>
+            <p class="sub" id="ap"></p>
+            <div class="stats" id="stats"></div>
+          </div>
+          <div class="vals" id="vals"></div>
+        </div>
+      </section>
+      <section id="servicios">
+        <div class="wrap">
+          <span class="tag rv">Servicios</span>
+          <h2 class="rv" id="vt"></h2>
+          <p class="sub rv" id="vp"></p>
+          <div class="grid" id="svc"></div>
+        </div>
+      </section>
+      <section class="alt" id="galeria">
+        <div class="wrap">
+          <span class="tag rv">Galería</span>
+          <h2 class="rv" id="gt"></h2>
+          <div class="gal" id="gal"></div>
+        </div>
+      </section>
+      <section id="contacto">
+        <div class="wrap ctg">
+          <div class="rv">
+            <span class="tag">Contacto</span>
+            <h2 id="ct"></h2>
+            <p class="sub" id="cp"></p>
+            <div class="info" id="info"></div>
+          </div>
+          <form id="f">
+            <label
+              >Tu nombre<input id="fn" required autocomplete="name" /></label
+            ><label
+              >Teléfono<input id="ft" type="tel" autocomplete="tel" /></label
+            ><label
+              >Cuéntanos qué necesitas<textarea
+                id="fm"
+                required
+              ></textarea></label
+            ><button class="btn" type="submit">Enviar por WhatsApp</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer><div class="wrap" id="foot"></div></footer>
+    <div id="lb">
+      <div>
+        <i id="lbe"></i>
+        <h3 id="lbt"></h3>
+        <p id="lbp"></p>
+        <button class="btn" id="lbx">Cerrar</button>
+      </div>
+    </div>
+    <a class="wa" id="wa" aria-label="Escribir por WhatsApp" href="#contacto"
+      >💬</a
+    >
+    <script src="script.js"></script>
+  </body>
+</html>
